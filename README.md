@@ -38,8 +38,7 @@ python manage.py runserver
 ```
 ## Usage
 
-To use the automatic essay grader, follow the instructions provided in the documentation (`docs/`). You may need to install dependencies and download additional resources before running the grader.
-
+To use the automatic essay grader, follow the instructions provided in the documentation (`docs/`). Y
 ## Contributing
 
 Contributors :- Aayush kumar Singh, Prajak Sen,Shubham kr. Singh ,Soumyonath Tripathy, Ujjwal Kumar 
