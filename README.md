@@ -17,6 +17,7 @@ g explainability metrics and techniques that could provide clear insights into h
 [Visit to  GLOVE files] (https://drive.google.com/file/d/1Y6wISmPIAcM83aQBG2exkcrI9W7GsyFv/view?usp=sharing)
 [visit to embedding pickle] (https://drive.google.com/file/d/1Y6wISmPIAcM83aQBG2exkcrI9W7GsyFv/view?usp=sharing)
 - [x] Get pickle + GloVe files from Google Drive (or create your own) and place it into the DeepLearningFiles folder in mysite\grade
+
       https://github.com/prajak002/SIT-ICOE-2024/assets/80170713/288f9322-4e2f-484f-ac72-3a70f409c3f2
 
 
