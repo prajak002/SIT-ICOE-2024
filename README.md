@@ -2,6 +2,8 @@
 
 This repository contains the implementation of an automatic essay grader, a tool designed to assess and score essays written in natural language automatically. The automatic essay grader utilizes advanced natural language processing (NLP) techniques and machine learning algorithms to analyze various aspects of written essays, including semantics, coherence, grammar, and phrasology. The system aims to provide accurate and consistent evaluations of essays, facilitating efficient grading processes in educational and testing contexts.
 
+
+
 ## Contents
 
 - **`src/`**: This directory contains the source code for the automatic essay grader.
