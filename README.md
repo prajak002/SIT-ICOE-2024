@@ -6,15 +6,19 @@ This repository contains the implementation of an automatic essay grader, a tool
 - Model Development: Developing accurate and reliable NLP models for essay grading posed a significant challenge. We encountered difficulties in training models that could effectively capture the nuances of human-written essays and provide consistent evaluations across different essay topics and writing styles.
 -  Data Collection and Annotation: Acquiring a diverse and representative dataset of essays for training and testing purposes was --challenging. Additionally, annotating the dataset with accurate and reliable ground truth scores required significant effort and expertise.
 - eature Engineering: Identifying and extracting relevant features from essays to train the grading models was a complex task. We experimented with various linguistic and structural features, such as word counts, sentence length, semantic similarity, and grammatical correctness, to improve the model's performance.
--   Explainability and Transparency: Ensuring transparency and interpretability in the grading process was a key concern. We faced challenges in designing explainability metrics and techniques that could provide clear insights into how the grading models arrive at their scores.
+-   Explainability and Transparency: Ensuring transparency and interpretability in the grading process was a key concern. We faced challenges in designin
+
+
+g explainability metrics and techniques that could provide clear insights into how the grading models arrive at their scores.
 - Scalability and Efficiency: Developing a scalable and efficient grading system that could handle large volumes of essays in real-time was another challenge. We had to optimize the performance of the grading algorithms and implement parallel processing techniques to meet the system's requirements.
 
 ## Important Links
 [Visit to Dataset](https://www.kaggle.com/c/asap-aes/overview)
 [Visit to  GLOVE files] (https://drive.google.com/file/d/1Y6wISmPIAcM83aQBG2exkcrI9W7GsyFv/view?usp=sharing)
 [visit to embedding pickle] (https://drive.google.com/file/d/1Y6wISmPIAcM83aQBG2exkcrI9W7GsyFv/view?usp=sharing)
--[x] Get pickle + GloVe files from Google Drive (or create your own) and place it into the DeepLearningFiles folder in mysite\grade
-  ![Alt text] (/demo.mp4)
+- [x] Get pickle + GloVe files from Google Drive (or create your own) and place it into the DeepLearningFiles folder in mysite\grade
+      https://github.com/prajak002/SIT-ICOE-2024/assets/80170713/288f9322-4e2f-484f-ac72-3a70f409c3f2
+
 
 
 ## HOW TO SET UP WEB APP
