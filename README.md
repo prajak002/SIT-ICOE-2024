@@ -2,6 +2,10 @@
 
 This repository contains the implementation of an automatic essay grader, a tool designed to assess and score essays written in natural language automatically. The automatic essay grader utilizes advanced natural language processing (NLP) techniques and machine learning algorithms to analyze various aspects of written essays, including semantics, coherence, grammar, and phrasology. The system aims to provide accurate and consistent evaluations of essays, facilitating efficient grading processes in educational and testing contexts.
 
+## Important Links
+[Visit to Dataset(https://www.kaggle.com/c/asap-aes/overview)
+[Visit to  GLOVE files] (https://drive.google.com/file/d/1Y6wISmPIAcM83aQBG2exkcrI9W7GsyFv/view?usp=sharing)
+[visit to embedding pickle] (https://drive.google.com/file/d/1Y6wISmPIAcM83aQBG2exkcrI9W7GsyFv/view?usp=sharing)
 
 
 ## Contents
