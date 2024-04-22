@@ -13,7 +13,7 @@ This repository contains the implementation of an automatic essay grader, a tool
 [Visit to Dataset](https://www.kaggle.com/c/asap-aes/overview)
 [Visit to  GLOVE files] (https://drive.google.com/file/d/1Y6wISmPIAcM83aQBG2exkcrI9W7GsyFv/view?usp=sharing)
 [visit to embedding pickle] (https://drive.google.com/file/d/1Y6wISmPIAcM83aQBG2exkcrI9W7GsyFv/view?usp=sharing)
-[] Get pickle + GloVe files from Google Drive (or create your own) and place it into the DeepLearningFiles folder in mysite\grade
+[x] Get pickle + GloVe files from Google Drive (or create your own) and place it into the DeepLearningFiles folder in mysite\grade
 
 
 
