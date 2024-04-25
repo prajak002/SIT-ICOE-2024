@@ -41,6 +41,45 @@ pip install django-extensions
 python manage.py migrate
 python manage.py runserver
 ```
+```
+# Hyperpaprameters for LSTM
+Hidden_dim1=300
+Hidden_dim2=100
+return_sequences = True
+dropout=0.5
+recurrent_dropout=0.4
+input_size=400
+activation='relu'
+bidirectional = True
+batch_size = 64
+epoch = 70
+** hyperparameters for word2vec**
+most_common_words= []
+print(X.shape)
+print(y.shape)
+for traincv, testcv in cv_data:
+    print("\n--------Fold {}--------\n".format(fold_count))
+    # get the train and test from the dataset.
+    X_train, X_test, y_train, y_test = X.iloc[traincv], X.iloc[testcv], y.iloc[traincv], y.iloc[testcv]
+    train_essays = X_train['essay']
+    #print("y_train",y_train)
+    test_essays = X_test['essay']
+    #y_train = torch.tensor(y_train,dtype=torch.long)
+    train_sentences = []
+    # print("train_essay ",train_essays.shape)
+    #print(X_train.shape,y_train.shape)
+    for essay in train_essays:
+        # get all the sentences from the essay
+        train_sentences.append(essay_to_wordlist(essay, remove_stopwords = True))
+
+    # word2vec embedding
+    print("Converting sentences to word2vec model")
+    model,_ = build_word2vec(train_sentences, num_workers, num_features, min_word_count, context,
+                  downsampling)
+    top10 = collections.defaultdict(int)
+
+
+```
 ## Usage
 
 To use the automatic essay grader, follow the instructions provided in the documentation (`docs/`). Y
